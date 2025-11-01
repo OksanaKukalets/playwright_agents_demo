@@ -1,0 +1,17 @@
+{
+  "name": "playwright_agents_demo",
+  "version": "1.0.0",
+  "description": "This is a repository to showcase the demo for the practical usage of the Playwright agents",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.51.0"
+  }
+}
