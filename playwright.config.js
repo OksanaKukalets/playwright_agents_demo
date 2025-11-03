@@ -1,8 +1,8 @@
 // @ts-check
 import { defineConfig, devices } from "@playwright/test";
-import dotenvx from "@dotenvx/dotenvx";
+import { config } from "@dotenvx/dotenvx";
 
-dotenvx.config({ path: ".env.production" });
+config({ path: "./.env" });
 
 /**
  * @see https://playwright.dev/docs/test-configuration
